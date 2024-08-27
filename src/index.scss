@@ -1,0 +1,11 @@
+@import "./assets/segoe-font/style.scss";
+@import "./scss/variables";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+   font-family :$font-segoe-400;
+}

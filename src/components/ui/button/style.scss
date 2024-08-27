@@ -1,0 +1,17 @@
+$gray-border: #282C31;
+$gray-page: #0D1117;
+$con-full: #FFFFFF;
+
+button {
+    padding: 5.5px !important;
+    border: 1px solid transparent;
+    color: $con-full;
+    border-radius: 5px;
+    transition: .1s ease-in;
+    &:hover {
+    border: 1px solid $gray-border;
+    }
+    &:active {
+    border: 1px solid $gray-page;
+    }
+}

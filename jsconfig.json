@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@/*": ["./src/*"],
+            "@components/*": ["./src/components/*"],
+            "@UI/*": ["./src/components/ui/*"],
+            "@UIlayouts/*": ["./src/components/layouts/*"],
+            "@UIform/*":["./src/components/form/*"],
+            "@UIcontainers":["./src/components/containers/*"],
+            "@UIicons/*": ["./src/components/icons/*"],
+            "@layouts/*": ["./src/layouts/*"],
+            "@images/*": ["./src/assets/images/*"],
+            "@icons/*": ["./src/assets/icons/*"],
+            "@mocks/*": ["./src/mocks/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@layout/*": ["./src/layouts/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@routers/*": ["./src/router/*"],
+            "@service/*": ["./src/service/*"],
+            "@reducer/*": ["./src/reducer/*"],
+        }
+    }
+}
