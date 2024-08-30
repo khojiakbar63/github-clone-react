@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Profile, AuthLayout } from "../layouts";
-import { Home, Error } from "../pages";
+import { Home, Overview, Repositories, Projects, Packages, Stars, Followers, Followings, Error } from "../pages";
 
 const router = [
   {
@@ -8,6 +8,13 @@ const router = [
     element: <Profile />,
     children: [
       { path: "/", element: <Home /> },
+      { path: "overview", element: <Overview /> },
+      { path: "repositories", element: <Repositories /> },
+      { path: "projects", element: <Projects /> },
+      { path: "packages", element: <Packages /> },
+      { path: "stars", element: <Stars /> },
+      { path: "followers", element: <Followers /> },
+      { path: "followings", element: <Followings /> },
       { path: "/*", element: <Error /> },
     ],
   },

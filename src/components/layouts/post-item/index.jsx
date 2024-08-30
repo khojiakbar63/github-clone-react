@@ -3,7 +3,7 @@ import "./style.scss"
 export const PostItem = () => {
     return (
         <div>
-            element
+            Post Item
         </div>
     );
 };

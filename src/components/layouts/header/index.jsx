@@ -18,8 +18,8 @@ export const Header = () => {
           </Link>
           <ul className="list">
             {headerTopNavigation.length &&
-              headerTopNavigation.map((item) => (
-                <li className="list-item">
+              headerTopNavigation.map((item, i) => (
+                <li key={i} className="list-item">
                   <NavLink to={item.link}>{item.title}</NavLink>
                   <i className={`bi ${item.icon} text-[#8B949E]`}></i>
                 </li>

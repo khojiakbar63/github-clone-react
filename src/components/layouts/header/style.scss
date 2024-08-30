@@ -1,9 +1,10 @@
 $gray-page: #0d1117;
-$gray-border: #282C31;
-$con-none: #161B22;
+$gray-border: #282c31;
+$con-none: #161b22;
 header {
   background-color: $con-none;
   color: #fff;
+  width: 100%;
   nav {
     display: flex;
     align-items: center;
@@ -15,7 +16,7 @@ header {
       align-items: center;
       justify-content: space-between;
       gap: 12px;
-      &-item{
+      &-item {
         display: flex;
         align-items: center;
         gap: 4px;
@@ -24,11 +25,11 @@ header {
         line-height: 21px;
         padding: 4px;
         border-radius: 5px;
-        &:hover{
+        &:hover {
           background-color: $gray-border;
-          transition: .1s ease-in;
+          transition: 0.1s ease-in;
         }
-    }
+      }
     }
   }
 }

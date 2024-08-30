@@ -1,0 +1,12 @@
+$gray-badge: #343942;
+$gray-icon: #8b949e;
+$gray-border: #282c31;
+
+.outlet {
+  border: 1px solid $gray-border;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-grow: 2;
+}

@@ -1,0 +1,45 @@
+$gray-page: #0d1117;
+$gray-icon: #8b949e;
+$gray-primary: #c2cad1;
+$global-secondary: #e77960;
+$gray-border: #282C31;
+$gray-badge: #343942;
+
+
+.navigation {
+  background-color: $gray-page;
+  height: 73px;
+  padding-top: 37px;
+  border-bottom: 1px solid $gray-border;
+
+  .list {
+    display: flex;
+    gap: 24px;
+    .item {
+      display: flex;
+      border-bottom: 2px solid transparent;
+      .link {
+        display: flex;
+        gap: 5px;
+        padding-bottom: 9px;
+        .icons {
+          color: $gray-icon;
+        }
+        .title {
+          color: $gray-primary;
+          font-weight: 600;
+        }
+        .quantity{
+            color: $gray-primary;
+            font-weight: 600;
+            padding: 0px 10px;
+            border-radius: 50px;
+            background: $gray-badge;
+        }
+      }
+    }
+  }
+  .active {
+    border-bottom: 2px solid $global-secondary;
+  }
+}

@@ -1,2 +1,10 @@
 export {Home} from './home'
+export {Overview} from './overview'
+export {Repositories} from './repositories'
+export { Projects } from './projects'
+export { Packages } from './packages'
+export {Stars} from './stars'
 export {Error} from './error'
+
+export {Followers} from './followers'
+export {Followings} from './followings'

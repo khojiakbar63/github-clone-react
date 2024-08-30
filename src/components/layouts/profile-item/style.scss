@@ -1,0 +1,92 @@
+// Global colors
+$global-primary: #1f6feb;
+$global-secondary: #e77960;
+$global-link: #58a6ff;
+$global-sass: #c6538c;
+$global-js: #f1e05a;
+$global-vue: #41b883;
+$global-css: #563d7c;
+
+// Grays color
+$gray-page: #0d1117;
+$gray-navbar: #161b22;
+$gray-button: #21262d;
+$gray-border: #282c31;
+$gray-badge: #343942;
+$gray-secondary: #6e7681;
+$gray-icon: #8b949e;
+$gray-primary: #c2cad1;
+$gray-white: #ffffff;
+
+// Contributions color
+$con-none: #161b22;
+$con-low: #0e4429;
+$con-medium: #0d743c;
+$con-good: #26a641;
+$con-full: #ffffff;
+
+$font-segoe-400: "Segoe UI Regular";
+
+.profile-item {
+  height: 120px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 24px;
+
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid $gray-primary;
+  }
+  .info {
+    margin-bottom: 12px;
+    .title {
+      .name {
+        color: $con-none;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 4px;
+      }
+      .login {
+        color: $gray-secondary;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+
+    .bio {
+      color: $gray-secondary;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .location {
+    color: $gray-secondary;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .follow-btn {
+    width: 100px;
+    border: 1px solid $gray-secondary;
+    border-radius: 4px;
+    color: $gray-page;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      background-color: $gray-border;
+      color: $gray-white;
+    }
+  }
+}

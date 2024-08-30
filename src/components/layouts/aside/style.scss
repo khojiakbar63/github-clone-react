@@ -1,0 +1,9 @@
+$gray-page: #0d1117;
+$gray-white: #ffffff;
+
+aside {
+  background-color: $gray-page;
+  min-height: calc(100vh - 73px - 68px);
+  width: 396px;
+  color: $gray-white;
+}
